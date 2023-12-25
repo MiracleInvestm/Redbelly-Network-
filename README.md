@@ -1,4 +1,4 @@
-# RedBelly network </br>
+# Redbelly Network </br>
 
 ## **Token Contract Documentation** </br>
 
