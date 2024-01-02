@@ -1,5 +1,9 @@
-# Redbelly Network </br>
+# RedBelly </br>
 
 ## **Token Contract Documentation** </br>
 
-**Contract Address:** `0x2a86963406a8f1aa0a888a8dac7221ccc759bc90` </br>
+**Contract Address:** `0xc2211ccba9a63f815e1200c302488e6af2b76750` </br>
+
+**Token Name :** `Redbelly Devnet`  </br>
+
+**Token Symbol :**  `BU` </br>
