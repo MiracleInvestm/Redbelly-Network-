@@ -30,7 +30,7 @@ pragma solidity 0.8.17;
  function transfer(address recipient, uint256 amount) public { require(balances[msg.sender] >= amount, "Insufficient balance."); balances[msg.sender] -= amount; balances[recipient] += amount; } }
 
 
-On the left sidebar, you will click on Solidity compiler and Compile erc20.sol
+On the left sidebar, you will click on Solidity compiler and Compile Redbelly.sol
 
 ```text
 Solidity Compiler >>> Compile Contract
