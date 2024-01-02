@@ -17,15 +17,17 @@ Name your file, in our case we've named it `Redbelly.sol` - yes, that [famous to
 
 Now add code. 
 
-# RedBelly </br>
+pragma solidity 0.8.17;
 
-## **Token Contract Documentation** </br>
+ // SPDX-License-Identifier: MIT
 
-**Contract Address:** `0xc2211ccba9a63f815e1200c302488e6af2b76750` </br>
+ contract Bustaaal { string public name = "Redbelly Devnet"; string public symbol = "BU"; uint8 public decimals = 18; uint256 public totalSupply = 100000000;
 
-**Token Name :** `Redbelly Devnet`  </br>
+ mapping (address => uint256) public balances; address public owner;
 
-**Token Symbol :**  `BU` </br>
+ constructor() { owner = msg.sender; balances[owner] = totalSupply; }
+
+ function transfer(address recipient, uint256 amount) public { require(balances[msg.sender] >= amount, "Insufficient balance."); balances[msg.sender] -= amount; balances[recipient] += amount; } }
 
 
 On the left sidebar, you will click on Solidity compiler and Compile erc20.sol
